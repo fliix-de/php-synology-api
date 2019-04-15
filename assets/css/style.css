@@ -1,0 +1,97 @@
+/*
+Author: Florian Müller
+Author URI: http://codemonkey.is/
+Version: 1.0.0
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+distributed under the terms of the GNU GPL
+*/
+
+@font-face {
+  font-family: 'HelveticaNeue-UltraLight';
+  src: url('../fonts/HelveticaNeue-UltraLight.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/HelveticaNeue-UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/HelveticaNeue-UltraLight.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/HelveticaNeue-UltraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/HelveticaNeue-UltraLight.svg#9453ea8da727d260bcdbfa605bdbb5d2') format('svg'); /* Legacy iOS */
+  font-style:   normal;
+  font-weight:  100;
+}
+@font-face {
+  font-family: 'HelveticaNeue-Medium';
+  src: url('../fonts/HelveticaNeue-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/HelveticaNeue-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/HelveticaNeue-Medium.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/HelveticaNeue-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/HelveticaNeue-Medium.svg#d7af0fd9278f330eed98b60dddea7bd6') format('svg'); /* Legacy iOS */ 
+  font-style:   normal;
+  font-weight:  400;
+}
+@font-face {
+  font-family: 'HelveticaNeue-Light';
+  src: url('../fonts/HelveticaNeue-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/HelveticaNeue-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/HelveticaNeue-Light.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/HelveticaNeue-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/HelveticaNeue-Light.svg#7384ecabcada72f0e077cd45d8e1c705') format('svg'); /* Legacy iOS */      
+  font-style:   normal;
+  font-weight:  200;
+}
+body, html {
+	background: #000;
+	color: #fff;
+	padding: 0px;
+	margin: 0px;
+	font-family: "HelveticaNeue-Light";
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}	
+#stackedchartdiv {
+	width: 102%;
+	height		: 170px;
+	font-size	: 11px;
+	margin: 0;
+	padding: 0;		
+}
+.col-lg-2 {
+	width: 150px;
+	height: 150px;
+	display: inline-block
+}
+.amcharts-chart-div {
+	margin-bottom: -30px;
+}
+.highcharts-background {
+	display: none;
+}
+.highcharts-container svg path,
+#highcharts-2 svg path { 
+	stroke: none;
+}
+#synology {
+	width: 70%;
+}
+#left-data-block {
+	float: left;
+	width: 700px;
+}
+#right-data-block {
+	float: right;
+	width: 360px;
+	margin-left: 30px;
+}
+div#synoDataCoreSystemUtilizationLive {
+    margin: 0 auto;
+}
+div#mem-circle {
+    margin-left: -20px;
+}
+div#container-speed {
+    margin-left: -30px;
+}
+div#container-rpm {
+    margin-left: -10px;
+}
+#synoDataCoreSystemUtilizationLive .row {
+    margin-left: -20px;
+}
